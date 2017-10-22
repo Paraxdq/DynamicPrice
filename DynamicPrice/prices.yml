@@ -1,0 +1,12 @@
+1:
+    name: Stone
+    price: 0.0025
+2:
+    name: Grass
+    price: 0.25
+3:
+    name: Dirt
+    price: 0.15
+3-2:
+    name: Podzol
+    price: 0.65

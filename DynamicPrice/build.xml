@@ -1,0 +1,9 @@
+<project name="DynamicPrice.makejar" default="makejar">
+    <target name="makejar" description="Create .jar File">
+        <jar jarfile="C:\Users\Dennis\workspace\DynamicPrice\Server\plugins\DynamicPrice.jar" basedir="." includes="*.yml, *.db">
+            <fileset dir="bin/">
+                <include name="**/*.class" />
+            </fileset>
+        </jar>
+    </target>
+</project>

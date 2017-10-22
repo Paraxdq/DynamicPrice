@@ -1,0 +1,75 @@
+#  ----------------------------------------------------
+#  Deutsche Sprach Datei;
+#  ----------------------------------------------------
+
+# \n = Neue Zeile
+# %s = Variable (darf nicht entfernt werden)
+
+#FARBCODES
+#&0	Black
+#&1	Dark Blue
+#&2	Dark Green
+#&3	Dark Aqua
+#&4	Dark Red
+#&5	Dark Purple
+#&6	Gold
+#&7	Gray
+#&8	Dark Gray
+#&9	Blue
+#&a	Green
+#&b	Aqua
+#&c	Red
+#&d	Light Purple
+#&e	Yellow
+#&f	White
+
+#&l	Bold
+#&m	Strikethrough
+#&n	Underline
+#&o	Italic
+#&r	Reset
+
+#######################
+
+dp-help: "Nutze &6/dp <command> help &ffür mehr\nInformationen."
+dp-hand-error: "&cFehler: Du musst ein Item in der Hand halten."
+
+dp-nopermission: "&cFehler: Du hast keine Rechte für diesen Befehl."
+
+# 1. Item Name, 2. Item ID, 3. Standard VK Preis, 4. Standard EK Preis, 5. Aktueller VK Preis, 6. Aktueller EK Preis, 7. Prozent
+dp-price: "&eName: &f%s\n&eItem-ID: &f%s\n&2-- Standard Preise / Stack --\n&eStandard VK preis: &a%s\n&eStandard EK preis: &a%s\n&2-- Aktuelle Preise / Stack --\n&eAktueller VK Preis: &a%s\n&eAktueller EK Preis: &a%s\n&eProzent-Wert: %s"
+dp-price-help: "&aZeigt den Preis für das Item in der Hand oder die ID an."
+dp-price-notfound: "&cFehler: Dieses Item ist nicht verkaufbar."
+
+#'hand' ist ein fixer Wert
+dp-set-help: "&aLegt den Preis von Items fest.\nNutze 'hand' für das aktuell ausgewählte Item."
+# 1. ID, 2. Preis
+dp-set-price: "Der Preis von ID: &a%s &fwurde auf &a$%s &fgesetzt."
+
+dp-sign-help: "Shop Aufbau:\n1. &a[&aDP Shop]&f\n2. <&aID&f> <&aAnzahl&f>\n3. <&aSB &f/ &aS &f/ &aB&f>"
+
+# 1. Preis
+dp-sign-buy-success: "Dir wurden &a%s &fabgezogen."
+# 1. Preis
+dp-sign-buy-error: "&cFehler: Du benötigst %s."
+dp-sign-buy-error-inv: "&cFehler: Dein Inventar ist voll!"
+dp-sign-buy-failed: "&cFehler: Das Item kann hier nicht gekauft werden."
+
+# 1. Preis
+dp-sign-sell-success: "Du hast &a%s &ferhalten!"
+# 1. Anzahl, 2. ID 
+dp-sign-sell-error: "&cFehler: Du benötigst %s x ID: %s."
+dp-sign-sell-failed: "&cFehler: Das Item kann hier nicht verkauft werden."
+dp-sign-sell-info: "&eInfo: &fMit Sneak + Rechtsklick werden alle Items verkauft."
+
+dp-sign-percent-info: "Neuer Prozentwert:"
+
+dp-pc-help: "&aZeigt den prozentualen Wert von Items an.\n"
+# 1. Item ID 2. Prozentwert
+dp-pc-success: "Prozentwert von &a%s &fwurde auf %s gesetzt."
+
+dp-command-price-info: "Zeigt den Preis eines Items."
+dp-command-set-info: "Setzt den Preis eines Items."
+dp-command-pc-info: "Bezieht oder setzt den Prozentwert eines Items."
+dp-command-sign-info: "Zeigt Schildaufbau und Schildanzahl."
+dp-command-reload-info: "Lädt Config-Dateien neu."

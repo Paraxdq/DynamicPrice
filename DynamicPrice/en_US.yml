@@ -1,0 +1,75 @@
+#  ----------------------------------------------------
+#  English language file;
+#  ----------------------------------------------------
+
+# \n = new line
+# %s = Variable (do not remove this)
+
+#COLOR CODES
+#&0	Black
+#&1	Dark Blue
+#&2	Dark Green
+#&3	Dark Aqua
+#&4	Dark Red
+#&5	Dark Purple
+#&6	Gold
+#&7	Gray
+#&8	Dark Gray
+#&9	Blue
+#&a	Green
+#&b	Aqua
+#&c	Red
+#&d	Light Purple
+#&e	Yellow
+#&f	White
+
+#&l	Bold
+#&m	Strikethrough
+#&n	Underline
+#&o	Italic
+#&r	Reset
+
+#######################
+
+dp-help: "Use &6/dp <command> &fhelp for more information."
+dp-hand-error: "&cError: You must hold an item in your hand."
+
+dp-nopermission: "&cError: You don't have the permission for this command."
+
+# 1. item name, 2. item id, 3. base sell price, 4. current sell price, 5. base buy price, 6. current buy price, 7. percent
+dp-price: "&eItem-ID: &a%s\n&2-- Base prices / stack --\n&eBase sell price: &a%s\n&eBase buy price: &a%s\n&2-- Current prices / stack --\n&eCurrent sell price: &a%s\n&eCurrent buy price: &a%s\n&ePercent-value: %s"
+dp-price-help: "&aShow the price for the item in your hand or the provided id."
+dp-price-notfound: "&cError: This item can not be sold."
+
+# <hand> is a fix value
+dp-set-help: "Set the price of an item.\nUse 'hand' for the item in your hand."
+# The first %s is the id, the second is the price
+dp-set-price: "Set price of ID: &a%s &fto &a$%s"
+
+dp-sign-help: "Shop Construction:\n1. [&aDP Shop&f]\n2. <&aid&f> <&aamount&f>\n3. <&aSB &f/ &aS &f/ &aB&f>"
+
+# 1. money
+dp-sign-buy-success: "Withdraw &a%s&f."
+# 1. price
+dp-sign-buy-error: "&cError: You need %s."
+dp-sign-buy-error-inv: "&cError: Your Inventory is full!"
+dp-sign-buy-failed: "&cError: This item cannot be bought at this sign."
+
+# 1. money
+dp-sign-sell-success: "You got &a%s!"
+# 1. amount, 2. id 
+dp-sign-sell-error: "&cError: You need %s x ID: %s."
+dp-sign-sell-failed: "&cError: This item cannot be sold at this sign."
+dp-sign-sell-info: "&eInfo: &f You can sell all items of a kind with sneak + right click on the sign."
+
+dp-sign-percent-info: "New percent-value:"
+
+dp-pc-help: "&aShows the percentage value of items.\n"
+# 1. item id 2. percentage
+dp-pc-success: "Percent value for &a%s &fwas set to %s."
+
+dp-command-price-info: "Show item price."
+dp-command-set-info: "Set item price."
+dp-command-pc-info: "Get or set the percantage of an items."
+dp-command-sign-info: "Show sign build and count."
+dp-command-reload-info: "Reload config files."

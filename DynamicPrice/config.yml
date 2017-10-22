@@ -1,0 +1,38 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                 DynamicPrice Config                  | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Sets the language of the plugin. [en_US / de_DE or a selfcreated file inside the plugins/DynamicPrice folder.]
+language: de_DE
+
+# Extra error or success informations
+debug: true
+
+# set 0 to disable; increase the price of an item for the value of [max-percent-increase] - time in minutes [DEFAULT: 60] / [MIN: 1] needs restart to apply changes
+# The prices will increase also when players buy items.
+increase-price-over-time-interval: 1
+
+# set 0 to disable; updates the signs in the given interval - time in minutes [DEFAULT: 5] / [MIN: 1] needs restart to apply changes
+# signs automatically update after a players buys or sells items
+sign-update-interval: 1
+
+# writes the changes into the database - time in minutes [DEFAULT: 30] / [MIN: 1] needs restart to apply changes
+database-save-interval: 1
+
+# set 100 to disable; value for buy prices on shop signs are multiplicated with this number [DEFAULT: 350] / [MIN: 1]
+buy-multiplicator: 350
+
+# min and max percent values for the item prices
+min-percent: 25
+max-percent: 200
+
+# selling an item stack (equal to the amount number on the sign) decreases the price of the item about the given percent [DEFAULT: 1] / [MIN: 0.1]
+percent-decrease-on-sell: 1
+
+# buying an item increases the prie about the given percent [DEFAULT: 2] / [MIN: 0.1]
+percent-increase-on-buy: 2
+
+# set 0 to disable; this will increase the item price in the given interval [increase-price-over-time-interval] - time in minutes [DEFAULT 60]:[MIN 1]
+percent-increase-over-time: 5 

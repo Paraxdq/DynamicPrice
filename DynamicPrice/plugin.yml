@@ -1,0 +1,18 @@
+name: DynamicPrice
+author: Paradox_DE
+main: de.paradox.DynamicPrice
+version: 0.0.1
+depend: [Vault]
+softdepend: ['Multiverse', 'Multiverse-Core']
+commands:
+    dp:
+        description: Info
+        aliases: [dprice, dset, dbuy, dsell, dreload, dsign, dpc, dpl, dpi]
+
+permissions:
+    dp.*:
+        description: Gives access to all DynamicPrice commands
+        children:
+            dp.price: true
+            dp.set: true
+            dp.reload: true
