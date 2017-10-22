@@ -49,15 +49,6 @@ public class PlayerListener implements Listener {
 
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void onPlayerInteract(PlayerInteractEvent e) {
@@ -85,18 +76,6 @@ public class PlayerListener implements Listener {
 			}
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	@SuppressWarnings("deprecation")
 	@EventHandler
@@ -295,12 +274,4 @@ public class PlayerListener implements Listener {
 			}
 		}
 	}
-
-	/*
-	 * public Block getTargetBlock(Player p, int range) { Location loc =
-	 * p.getLocation(); Vector v = loc.getDirection().normalize(); Block b =
-	 * null; while (b == null && range-- > 0) { b = loc.add(v).getBlock(); }
-	 * return b; }
-	 */
-
 }
