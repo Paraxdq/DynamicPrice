@@ -35,7 +35,6 @@ import de.paradox.confighandler.ConfigAccessor;
 public class DynamicPriceCommandExecutor implements CommandExecutor{
 	private DynamicPrice plugin;
 	private ConfigAccessor configAccessor;
-	//private ConfigAccessor pricesAccessor;
 	private ConfigAccessor langAccessor;
 	private Prices prices;
 	private Language lang;
